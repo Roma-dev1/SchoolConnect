@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>SchoolConnect Login</title>  
+     <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+      <h1>Welcome Back!</h1>
+     <p>Login to your SchoolConnect account</p>
+
+ <form id="loginForm">
+
+      <input type="email" id="email"
+        placeholder="Enter your email" required>
+             <br><br>
+   
+   <input type="password" id="password"
+        placeholder="Enter your password" required>
+             <br><br>
+
+           <button type="submit">Login</button>
+
+        <p id="loginMessage"></p>
+   
+        <p>Don't have an account</p>
+   
+   <a href="register.html">Create an account</a>
+   
+ </form>
+    
+    <script type="module"
+      src="login-firebase.js"></script>  
+  </body>
+  </html>
